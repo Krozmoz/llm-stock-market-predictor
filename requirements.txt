@@ -1,0 +1,35 @@
+# ===============================================================
+#  requirements.txt — Зависимости проекта
+# ---------------------------------------------------------------
+#  Основные библиотеки:
+#   • torch>=2.7.0 — нейросети и GPU-ускорение
+#   • transformers>=4.35.2 — работа с DistilBERT
+#   • pandas, numpy, scikit-learn — обработка и метрики
+#   • tqdm — прогресс выполнения
+#
+#  Автор: Михаил Шардин
+#  Онлайн-визитка: https://shardin.name/?utm_source=python
+# 
+#  Репозиторий: https://github.com/empenoso/llm-stock-market-predictor
+# ===============================================================
+
+# Transformers ecosystem
+transformers==4.35.2
+accelerate==0.25.0
+datasets==2.16.1
+tokenizers==0.15.0
+
+# Classical ML
+scikit-learn==1.3.2
+
+# Data processing
+pandas==2.1.4
+numpy==1.26.3
+pyarrow==14.0.2
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Utilities
+tqdm==4.66.1
