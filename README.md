@@ -54,8 +54,9 @@ price rising strongly, volume increasing, near resistance
 #### 1️⃣ Клонирование репозитория
 
 ```bash
-git clone https://github.com/empenoso/llm-finance-predictor.git
-cd llm-finance-predictor
+git clone https://github.com/empenoso/llm-stock-market-predictor.git
+
+cd llm-stock-market-predictor
 ```
 
 #### 2️⃣ Сборка Docker-образа
